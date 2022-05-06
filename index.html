@@ -57,7 +57,7 @@
         var createScene = function () {
     // This creates a basic Babylon Scene object (non-mesh)
     var scene = new BABYLON.Scene(engine);
-    scene.clearColor = new BABYLON.Color4;
+    scene.clearColor = new BABYLON.Color4(0,0,0,0);
 
     var camera = new BABYLON.ArcRotateCamera("camera", BABYLON.Tools.ToRadians(90), BABYLON.Tools.ToRadians(65), 10, BABYLON.Vector3.Zero(), scene);
 
